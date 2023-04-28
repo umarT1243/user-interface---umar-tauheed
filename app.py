@@ -13,6 +13,7 @@ cnx = mysql.connector.connect(host='localhost',
 
 
 
+
 #routing
 @app.route('/')
 def index():
