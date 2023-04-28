@@ -101,8 +101,12 @@ def login():
 
     if results:
         current_user = results[0][0]
+        
+
         session["messages"] = json.dumps({"person":current_user})
+
         return redirect("/home")
+
 
     else:
         return redirect('/signup')
@@ -110,12 +114,15 @@ def login():
 @app.route('/signup', methods=['POST'])
 def signup():
 
+    password = request.form['password']
+
+
     fname = request.form['fname']
     sname = request.form['sname']
 
     email = request.form['email']
 
-    password = request.form['password']
+
 
     cursor = cnx.cursor()
 
