@@ -1,0 +1,8 @@
+''in python
+
+
+using pip install:
+
+install flask
+install mysql
+mysql.connector
