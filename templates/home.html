@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='wuw.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='body.css')}}">
+    <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.css')}}" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top">
+      <div class="container " >
+        <a href="home" class="navbar-brand nme">Job Finder</a>
+      </div>
+      
+
+      <p class = "hi">
+        YOU ARE NOW SIGNED IN AS :  {{ messages["person"] }}
+
+        </p>
+
+    <a href="logout">  <button class="signup container-M  btn btn-primary btn bg-dark mx-3">
+          SIGN OUT
+        </button> </a>
+
+
+                  </nav>
+
+
+
+
+
+                    <div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div/>
+
+<div class="container-md test">
+<a href="employees"> <button class="row empbtn">
+  <div class="card-body p-5">
+
+    <h2 class="text-uppercase employ text-center">employees</h2>
+    <br/>
+    <h5 class="card-text ljob ">Looking For A Job Or An Employer Click here.</h5>
+
+    </button> </a>
+
+    <div class=" container-md  lolo">
+       <div class="card card-body">
+           <p2 class=" ">welcome to the #1 website for connecting employers with their employees. please select weather
+           you are an employer or employee.  </p2>
+
+         </div>
+
+    <div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div/>
+
+    <a href="employers"> <button class="row empbtn">
+      <div class="card-body p-5">
+        <h2 class="text-uppercase employ text-center">employers</h2>
+        <br/>
+        <h5 class="card-text ljob ">Looking For A Suitable Employee Click Here to Search Profiles.</h5>
+
+        </button> </a>
+
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="{{ url_for('static', filename='bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{ url_for('static', filename='wuw.js')}}"></script>
+
+</section>
+  </body>
+</html>

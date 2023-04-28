@@ -1,0 +1,222 @@
+.signup{
+width: 7rem;
+
+}
+
+.hi{
+  color: #85B0BE;
+ font-weight: 700;
+ font-size: 20px;
+ text-align: center;
+ 
+
+
+}
+.container-fluid-nav div{
+  display: flex;
+justify-content: space-around;}
+
+
+.nme{
+    color: #85B0BE;
+    font-weight: 700;
+    font-size: 30px;}
+
+
+
+.empbtn:hover{
+  background-color: skyblue;
+
+}
+
+.empbtn{
+    width: 23rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+
+.employ{
+    color: indigo;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+  .ljob {
+    font-weight: 100;
+    font-size: 20px;
+  }
+
+   .srch {
+    background-color: skyblue;
+    font-weight: 650;
+  }
+
+.tax{
+  font-weight: 650;
+  font-size: 19px;
+}
+
+
+
+.bx{
+  background-color: beige;
+}
+
+.sug{
+background-color: skyblue;
+width: 14rem;
+margin-left: 7%;
+
+}
+
+.sugp{
+background-color: blue;
+width: 20rem;
+margin-left: 7%;
+height: auto;
+
+}
+
+.metex{
+background-color: skyblue;
+width: 18rem;
+
+}
+
+
+
+.profiles{
+  height: 90rem;
+}
+
+
+.pf1{
+width: 49%;
+height: 15rem;
+
+}
+
+.pf2{
+width: 49%;
+height: 15rem;
+margin-left: auto;
+
+}
+
+
+.lolo{
+  width: 23rem;
+  padding:20px 20px;
+}
+
+.test{
+  display: grid;
+  grid-template-columns: 10% 140%;
+}
+
+
+.search1{
+height: 3rem;
+width: 25rem;
+}
+
+.searchbtn{
+height: 3rem;
+width: 6rem;
+margin-left: 0.3rem;
+margin-bottom: 0.3rem;
+
+}
+
+.meng{
+  height: 15rem;
+  width: 20rem
+}
+
+.explore{
+width: 10rem;
+height:2.5rem;
+
+}
+
+
+
+.engtex{
+margin-left: 25rem;
+margin-top: -18rem;
+background-color: beige;
+font-weight: 500;
+font-style: italic;
+}
+
+
+@media only screen and (max-width:800px){
+.test{
+  grid-template-columns: auto;
+}
+
+.search1{
+height: 3rem;
+width: 10rem;
+}
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+
+  .meng{
+    height: 6rem;
+    width: 10rem}
+
+    .explore{
+    width: 5rem;
+    height:2.5rem;
+
+    }
+
+    .metex{
+    background-color: skyblue;
+    width:8rem;
+}
+
+    .engtex{
+    margin-left: 10rem;
+    margin-top: -10rem;
+    background-color: beige;
+    font-weight: 500;
+    font-style: italic;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width:650px){
+
+  .engtex{
+  margin-left: -1rem;
+  margin-top: 0.5rem;
+  width: 10rem;
+  background-color: beige;
+  font-weight: 500;
+  font-style: italic;
+
+  }
+
+
+
+
+
+
+}
